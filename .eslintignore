@@ -1,0 +1,6 @@
+.eslint.json
+*.js
+node_modules
+.prettierrc
+lib
+dist
