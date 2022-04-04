@@ -10,6 +10,7 @@ const config: Config = {
   channelAccessToken: functions.config().line.channel_access_token,
   channelSecret: functions.config().line.channel_secret,
 };
+
 const client = new line.Client(config);
 
 export const lineWebhook = functions
